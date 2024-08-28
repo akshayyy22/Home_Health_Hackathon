@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Home Health Hackathon Project
 
-## Getting Started
+## Overview
+This project is developed as part of the Home Health Hackathon. It aims to provide a comprehensive solution for managing medications and health monitoring for users, especially catering to the needs of elderly patients. The application integrates features such as medication reminders, refill options, Stripe payment integration, and live monitoring to enhance the user experience and ensure timely care.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. **Medication Management**
+- **Add Medicines**: Users can add their prescribed medicines to the system, including details such as dosage, frequency, and timing.
+- **Reminders**: The app provides timely reminders to take medicines, ensuring adherence to the prescribed schedule.
+- **Refill Option**: A built-in option to order refills when the medication is running low. Users can easily track and manage their medicine stock.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. **Payment Integration**
+- **Stripe Integration**: Users can pay for their medicine refills directly through the app using Stripe, ensuring a smooth and secure transaction process.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. **Live Monitoring**
+- **Health Tracking**: The app offers live monitoring features, allowing users or their caregivers to track vital health statistics in real-time.
+- **Alerts**: If any abnormal readings are detected, the system can send alerts to both the user and their designated healthcare providers.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 4. **User-Friendly Interface**
+- **Intuitive Design**: The app is designed with simplicity and ease of use in mind, ensuring that even non-tech-savvy users can navigate and use the app effectively.
+- **Mobile-First Design**: Optimized for mobile devices, making it accessible on the go.
 
-## Learn More
+## Technology Stack
+- **Frontend**: React.js, Next.js, TypeScript
+- **Backend**: Next.js Server
+- **Database**: AppWrite
+- **Messaging**: Twilio
+- **Payment Gateway**: Stripe API
+- **Deployment**: Vercel
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Prerequisites
+- Node.js
+- npm or yarn
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Setup
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/akshayyy22/Home_Health_Hackathon.git
