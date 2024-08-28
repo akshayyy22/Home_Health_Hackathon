@@ -32,8 +32,8 @@ This project is developed as part of the Home Health Hackathon. It aims to provi
 ## Installation
 
 ### Prerequisites
-- Node.js
-- npm or yarn
+- npm install
+- npm run dev
 
 ### Setup
 1. Clone the repository:
